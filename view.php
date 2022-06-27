@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Mautic Whitelabeler</title>
@@ -13,65 +14,69 @@
 	<script src="lib/spectrum/spectrum.js"></script>
 	<link rel='stylesheet' href="lib/style.css" />
 </head>
+
 <body>
 	<div id="header">
 		<div id="logo">
 			<div id="logoimg">
-	 			<img id="mautic-logo" src="images/sidebar.png" alt="" style="width:130px;margin: 10px 0 0 0;" />
-			</div><!--logoimg-->
- 		</div>
- 		<div id="links">
- 			<a href="" class="mautic-link">Primary Color</a>
- 			<a href="" class="mautic-hover">Hover Color</a>
- 		</div>
+				<img id="mautic-logo" src="images/sidebar.png" alt="" style="width:130px;margin: 10px 0 0 0;" />
+			</div>
+			<!--logoimg-->
+		</div>
+		<div id="links">
+			<a href="" class="mautic-link">Primary Color</a>
+			<a href="" class="mautic-hover">Hover Color</a>
+		</div>
 	</div>
 
 	<div class="sidebar-container">
 		<div class="sidebar">
 
-		    <li class="menu-item">
-		        <a href="#">
-		            <span class="icon pull-left fa fa-pie-chart active-icon"></span>
-		            <span class="nav-item-name">Segments</span>
-		        </a>
-		    </li>
+			<li class="menu-item">
+				<a href="#">
+					<span class="icon pull-left fa fa-pie-chart active-icon"></span>
+					<span class="nav-item-name">Segments</span>
+				</a>
+			</li>
 
-		    <li class="menu-item group">
-		        <a href="#">
-		            <span class="icon pull-left fa fa-puzzle-piece"></span>
-		            <span class="nav-item-name">Components</span>
+			<li class="menu-item group">
+				<a href="#">
+					<span class="icon pull-left fa fa-puzzle-piece"></span>
+					<span class="nav-item-name">Components</span>
 					<span class="arrow"></span>
-		        </a>
+				</a>
 
-		        <ul class="nav-submenu collapse in" id="mautic_components_root_child" style="height: auto;">
-		            <li class="nav-group">
-		                <a href="#" data-menu-link="mautic_asset_index" id="mautic_asset_index" data-toggle="ajax"><span class="nav-item-name text">Assets</span></a>
-		            </li>
-		            <li class="nav-group">
-		                <a href="#" data-menu-link="mautic_form_index" id="mautic_form_index" data-toggle="ajax"><span class="nav-item-name text">Forms</span></a>
-		            </li>
-		            <li class="nav-group">
-		                <a href="#" data-menu-link="mautic_page_index" id="mautic_page_index" data-toggle="ajax"><span class="nav-item-name text">Landing Pages</span></a>
-		            </li>
-		            <li class="nav-group">
-		                <a href="#" data-menu-link="mautic_dynamicContent_index" id="mautic_dynamicContent_index" data-toggle="ajax"><span class="nav-item-name text">Dynamic Content</span></a>
-		            </li>
-		        </ul>
+				<ul class="nav-submenu collapse in" id="mautic_components_root_child" style="height: auto;">
+					<li class="nav-group">
+						<a href="#" data-menu-link="mautic_asset_index" id="mautic_asset_index" data-toggle="ajax"><span class="nav-item-name text">Assets</span></a>
+					</li>
+					<li class="nav-group">
+						<a href="#" data-menu-link="mautic_form_index" id="mautic_form_index" data-toggle="ajax"><span class="nav-item-name text">Forms</span></a>
+					</li>
+					<li class="nav-group">
+						<a href="#" data-menu-link="mautic_page_index" id="mautic_page_index" data-toggle="ajax"><span class="nav-item-name text">Landing Pages</span></a>
+					</li>
+					<li class="nav-group">
+						<a href="#" data-menu-link="mautic_dynamicContent_index" id="mautic_dynamicContent_index" data-toggle="ajax"><span class="nav-item-name text">Dynamic Content</span></a>
+					</li>
+				</ul>
 
-				<li class="menu-item support">
-					<h1>SUPPORT THIS PROJECT</h1>
-					<p>If you find this project useful, please consider sending a small contribution. It allows me to spend more time on 
+			<li class="menu-item support">
+				<h1>SUPPORT THIS PROJECT</h1>
+				<p>If you find this project useful, please consider sending a small contribution. It allows me to spend more time on
 					open source software like this!</p>
-					<a href="https://paypal.me/nickthompson" target="blank" class="btn btn-sm btn-support"><i class="fa fa-coffee" aria-hidden="true"></i>&nbsp;BUY ME A COFFEE</a>
+				<a href="https://paypal.me/nickthompson" target="blank" class="btn btn-sm btn-support"><i class="fa fa-coffee" aria-hidden="true"></i>&nbsp;BUY ME A COFFEE</a>
 
-					 <h1>NEED HOSTING?</h1>
-					 <p>If you need fully managed web hosting compatible with Mautic and other open source software, feel free to reach out. We host and configure other open source apps like NextCloud, OnlyOffice, MatterMost, and build our own custom solutions.</p>
-					 <a href="mailto:sales@creative.link?subject=Mautic%20Hosting" target="blank" class="btn btn-sm btn-support"><i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;CONTACT</a>
-		        </li>
-		    </li>
+				<h1>NEED HOSTING?</h1>
+				<p>If you need fully managed web hosting compatible with Mautic and other open source software, feel free to reach out. We host and configure other open source apps like NextCloud, OnlyOffice, MatterMost, and build our own custom solutions.</p>
+				<a href="mailto:sales@creative.link?subject=Mautic%20Hosting" target="blank" class="btn btn-sm btn-support"><i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;CONTACT</a>
+			</li>
+			</li>
 
-		</div><!--sidebar-->
-	</div><!--sidebar-container-->
+		</div>
+		<!--sidebar-->
+	</div>
+	<!--sidebar-container-->
 
 	<div class="whitelabeler">
 		<div class="container">
@@ -83,18 +88,20 @@
 								<h2>Mautic Whitelabeler</h2>
 								<p>See the <a href="https://github.com/nickian/mautic-whitelabeler" target="_blank" class="mautic-link">GitHub page</a> for more information and instructions.</p>
 								<p>Don't use this without making a backup of your Mautic files first!</p>
-								<hr/>
-							</div><!--col-md-12-->
-						</div><!--row-->
+								<hr />
+							</div>
+							<!--col-md-12-->
+						</div>
+						<!--row-->
 						<div class="row">
 							<div class="col-md-12">
 								<form method="post" enctype="multipart/form-data">
 									<div id="basic">
 										<div class="form-group">
-											<label for="mautic-path">Where is Mautic installed?</label><br/>
+											<label for="mautic-path">Where is Mautic installed?</label><br />
 											<small>Absolute path to Mautic's root on your server.</small>
 											<div class="field-container">
-                                            <input type="text" class="form-control" id="mautic-path" name="mautic_path" value="<?=getenv('MWL_MAUTIC_PATH')?>">
+												<input type="text" class="form-control" id="mautic-path" name="mautic_path" value="<?= getenv('MWL_MAUTIC_PATH') ?>">
 												<span id="path-loading">
 													<i class="fa fa-spinner fa-spin"></i>
 												</span>
@@ -103,9 +110,9 @@
 											<small class="path-fail"></small>
 										</div>
 										<div class="form-group">
-											<label for="mautic-url">Mautic URL</label><br/>
+											<label for="mautic-url">Mautic URL</label><br />
 											<div class="field-container">
-                                            <input type="text" class="form-control" name="mautic_url" id="mautic-url" placeholder="" value="<?=getenv('MWL_MAUTIC_URL')?>">
+												<input type="text" class="form-control" name="mautic_url" id="mautic-url" placeholder="" value="<?= getenv('MWL_MAUTIC_URL') ?>">
 												<span id="url-loading">
 													<i class="fa fa-spinner fa-spin"></i>
 												</span>
@@ -114,114 +121,121 @@
 											<small class="url-fail"></small>
 										</div>
 										<div class="form-group">
-											<label for="company-name">Company Name</label><br/>
+											<label for="company-name">Company Name</label><br />
 											<small>This replaces "Mautic" in the page titles and footer.</small>
-                                            <input type="text" class="form-control" name="company_name" id="company-name" value="<?=getenv('MWL_COMPANY_NAME') ?? 'Mautic'?>">
+											<input type="text" class="form-control" name="company_name" id="company-name" value="<?= getenv('MWL_COMPANY_NAME') ?? 'Mautic' ?>">
 										</div>
-										
+
 										<div class="form-group">
-											<label for="footer-prefix">Footer Prefix (optional)</label><br/>
+											<label for="footer-prefix">Footer Prefix (optional)</label><br />
 											<small>Displays after company name in the footer.</small>
-                                            <input type="text" class="form-control" name="footer_prefix" id="footer-prefix" value="<?=getenv('MWL_FOOTER_PREFIX') ?? 'All Rights Reserved.'?>">
+											<input type="text" class="form-control" name="footer_prefix" id="footer-prefix" value="<?= getenv('MWL_FOOTER_PREFIX') ?? 'All Rights Reserved.' ?>">
 										</div>
-										
+
 										<div class="form-group">
-											<label for="footer">Footer (Optional)</label><br/>
+											<label for="footer">Footer (Optional)</label><br />
 											<small>Additional footer text or HTML to display after company name and footer prefix.</small>
-                                            <input type="text" class="form-control" name="footer" id="footer" value="<?=getenv('MWL_FOOTER')?>">
+											<input type="text" class="form-control" name="footer" id="footer" value="<?= getenv('MWL_FOOTER') ?>">
 										</div>
-										
-									</div><!--basic-->
+
+									</div>
+									<!--basic-->
 									<div id="colors">
 										<h3>General Colors</h3>
 										<div class="row">
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="mautic_primary"><small>Primary Color</small></label><br/>
-                                                    <input type="text" class="form-control mautic_primary" id="mautic-primary" name="mautic_primary" value="<?=getenv('MWL_PRIMARY_COLOR')?>">
+													<label for="mautic_primary"><small>Primary Color</small></label><br />
+													<input type="text" class="form-control mautic_primary" id="mautic-primary" name="mautic_primary" value="<?= getenv('MWL_PRIMARY_COLOR') ?>">
 												</div>
 											</div>
 											<div class="col-md-8">
 												<div class="form-group">
-													<label for="mautic_hover"><small>Hover Color (Button Background)</small></label><br/>
-                                                    <input type="text" class="form-control mautic_hover" id="mautic-hover" name="mautic_hover" value="<?=getenv('MWL_HOVER_COLOR')?>">
+													<label for="mautic_hover"><small>Hover Color (Button Background)</small></label><br />
+													<input type="text" class="form-control mautic_hover" id="mautic-hover" name="mautic_hover" value="<?= getenv('MWL_HOVER_COLOR') ?>">
 												</div>
 											</div>
-										</div><!--row-->
-									</div><!--colors-->
+										</div>
+										<!--row-->
+									</div>
+									<!--colors-->
 
 									<div id="sidebarcolors">
 										<h3>Sidebar Colors</h3>
 										<div class="row">
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="logo_bg"><small>Logo Background</small></label><br/>
-                                                    <input type="text" class="form-control logo_bg" id="logo-bg" name="logo_bg" value="<?=getenv('MWL_LOGO_BACKGROUND')?>">
+													<label for="logo_bg"><small>Logo Background</small></label><br />
+													<input type="text" class="form-control logo_bg" id="logo-bg" name="logo_bg" value="<?= getenv('MWL_LOGO_BACKGROUND') ?>">
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="sidebar_bg"><small>Sidebar Background</small></label><br/>
-                                                    <input type="text" class="form-control sidebar_bg" id="sidebar-bg" name="sidebar_bg" value="<?=getenv('MWL_SIDEBAR_BACKGROUND')?>">
+													<label for="sidebar_bg"><small>Sidebar Background</small></label><br />
+													<input type="text" class="form-control sidebar_bg" id="sidebar-bg" name="sidebar_bg" value="<?= getenv('MWL_SIDEBAR_BACKGROUND') ?>">
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="sidebar_submenu_bg"><small>Submenu Background</small></label><br/>
-                                                    <input type="text" class="form-control sidebar_submenu_bg" id="sidebar-submenu-bg" name="sidebar_submenu_bg" value="<?=getenv('MWL_SUBMENU_BACKGROUND')?>">
+													<label for="sidebar_submenu_bg"><small>Submenu Background</small></label><br />
+													<input type="text" class="form-control sidebar_submenu_bg" id="sidebar-submenu-bg" name="sidebar_submenu_bg" value="<?= getenv('MWL_SUBMENU_BACKGROUND') ?>">
 												</div>
 											</div>
-										</div><!--row-->
+										</div>
+										<!--row-->
 
 										<div class="row">
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="sidebar_link"><small>Link Text Color</small></label><br/>
-                                                    <input type="text" class="form-control sidebar_link" id="sidebar-link" name="sidebar_link" value="<?=getenv('MWL_LINK_COLOR')?>">
+													<label for="sidebar_link"><small>Link Text Color</small></label><br />
+													<input type="text" class="form-control sidebar_link" id="sidebar-link" name="sidebar_link" value="<?= getenv('MWL_LINK_COLOR') ?>">
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="sidebar_link_hover"><small>Link Text Hover</small></label><br/>
-                                                    <input type="text" class="form-control sidebar_link_hover" id="sidebar-link-hover" name="sidebar_link_hover" value="<?=getenv('MWL_LINK_HOVER_COLOR')?>">
+													<label for="sidebar_link_hover"><small>Link Text Hover</small></label><br />
+													<input type="text" class="form-control sidebar_link_hover" id="sidebar-link-hover" name="sidebar_link_hover" value="<?= getenv('MWL_LINK_HOVER_COLOR') ?>">
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="active_icon"><small>Active Icon</small></label><br/>
-                                                    <input type="text" class="form-control active_icon" id="active-icon" name="active_icon" value="<?=getenv('MWL_ACTIVE_ICON_COLOR')?>">
+													<label for="active_icon"><small>Active Icon</small></label><br />
+													<input type="text" class="form-control active_icon" id="active-icon" name="active_icon" value="<?= getenv('MWL_ACTIVE_ICON_COLOR') ?>">
 												</div>
 											</div>
-										</div><!--row-->
+										</div>
+										<!--row-->
 
 										<div class="row">
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="sidebar_divider"><small>Divider</small></label><br/>
-                                                    <input type="text" class="form-control sidebar_divider" id="sidebar-divider" name="sidebar_divider" value="<?=getenv('MWL_DIVIDER_COLOR')?>">
+													<label for="sidebar_divider"><small>Divider</small></label><br />
+													<input type="text" class="form-control sidebar_divider" id="sidebar-divider" name="sidebar_divider" value="<?= getenv('MWL_DIVIDER_COLOR') ?>">
 												</div>
-												<label for="divider_left"><small>Divider Left Position</small></label><br/>
+												<label for="divider_left"><small>Divider Left Position</small></label><br />
 												<div class="input-group">
-                                                <input type="number" class="form-control" id="divider-left" name="divider_left" value="50" value="<?=getenv('MWL_DIVIDER_LEFT_POSITION')?>">
+													<input type="number" class="form-control" id="divider-left" name="divider_left" value="50" value="<?= getenv('MWL_DIVIDER_LEFT_POSITION') ?>">
 													<div class="input-group-addon">px</div>
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
 													<div class="form-group">
-														<label for="submenu_bullet_bg"><small>Submenu Bullet Background</small></label><br/>
-                                                        <input type="text" class="form-control submenu_bullet_bg" id="submenu-bullet-bg" name="submenu_bullet_bg" value="<?=getenv('MWL_SUBMENU_BULLET_BACKGROUND')?>">
+														<label for="submenu_bullet_bg"><small>Submenu Bullet Background</small></label><br />
+														<input type="text" class="form-control submenu_bullet_bg" id="submenu-bullet-bg" name="submenu_bullet_bg" value="<?= getenv('MWL_SUBMENU_BULLET_BACKGROUND') ?>">
 													</div>
 												</div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-													<label for="submenu_bullet_shadow"><small>Submenu Bullet Shadow</small></label><br/>
-                                                    <input type="text" class="form-control submenu_bullet_shadow" id="submenu-bullet-shadow" name="submenu_bullet_shadow" value="<?=getenv('MWL_SUBMENU_BULLET_SHADOW')?>">
+													<label for="submenu_bullet_shadow"><small>Submenu Bullet Shadow</small></label><br />
+													<input type="text" class="form-control submenu_bullet_shadow" id="submenu-bullet-shadow" name="submenu_bullet_shadow" value="<?= getenv('MWL_SUBMENU_BULLET_SHADOW') ?>">
 												</div>
 											</div>
-										</div><!--row-->
-									</div><!--sidebar-colors-->
+										</div>
+										<!--row-->
+									</div>
+									<!--sidebar-colors-->
 
 									<div id="sidebarlogo">
 										<h3>Sidebar Logo</h3>
@@ -236,22 +250,23 @@
 													<p><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a> <span></span></p>
 												</div>
 											</div>
-										</div><!--row-->
+										</div>
+										<!--row-->
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="sidebar-logo-width"><small>Width</small></label><br/>
+													<label for="sidebar-logo-width"><small>Width</small></label><br />
 													<div class="input-group">
-                                                        <input type="number" class="form-control" id="sidebar-logo-width" name="sidebar_logo_width" value="<?=getenv('MWL_SIDEBAR_LOGO_WIDTH') ?? 130?>" min="50" max="200">
+														<input type="number" class="form-control" id="sidebar-logo-width" name="sidebar_logo_width" value="<?= getenv('MWL_SIDEBAR_LOGO_WIDTH') ?? 130 ?>" min="50" max="200">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
 											</div>
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="sidebar-logo-margin-top"><small>Top Margin</small></label><br/>
+													<label for="sidebar-logo-margin-top"><small>Top Margin</small></label><br />
 													<div class="input-group">
-                                                    <input type="number" class="form-control margintop" id="sidebar-logo-margin-top" name="sidebar_logo_margin_top" data-margin="marginTop" data-logo="sidebar" placeholder="0" value="<?=getenv('MWL_SIDEBAR_LOGO_TOP_MARGIN') ?? 10?>">
+														<input type="number" class="form-control margintop" id="sidebar-logo-margin-top" name="sidebar_logo_margin_top" data-margin="marginTop" data-logo="sidebar" placeholder="0" value="<?= getenv('MWL_SIDEBAR_LOGO_TOP_MARGIN') ?? 10 ?>">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
@@ -260,24 +275,26 @@
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="sidebar-logo-margin-left"><small>Left Margin</small></label><br/>
+													<label for="sidebar-logo-margin-left"><small>Left Margin</small></label><br />
 													<div class="input-group">
-                                                    <input type="number" class="form-control marginleft" id="sidebar-logo-margin-left" name="sidebar_logo_margin_left" data-margin="marginLeft" data-logo="sidebar" value="<?=getenv('MWL_SIDEBAR_LOGO_LEFT_MARGIN') ?? 0?>" placeholder="0">
+														<input type="number" class="form-control marginleft" id="sidebar-logo-margin-left" name="sidebar_logo_margin_left" data-margin="marginLeft" data-logo="sidebar" value="<?= getenv('MWL_SIDEBAR_LOGO_LEFT_MARGIN') ?? 0 ?>" placeholder="0">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
 											</div>
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="sidebar-logo-margin-right"><small>Right Margin</small></label><br/>
+													<label for="sidebar-logo-margin-right"><small>Right Margin</small></label><br />
 													<div class="input-group">
-                                                    <input type="number" class="form-control marginright" id="sidebar-logo-margin-right" name="sidebar_logo_margin_right" data-margin="marginRight" data-logo="sidebar" value="<?=getenv('MWL_SIDEBAR_LOGO_RIGHT_MARGIN') ?? 0?>" placeholder="0">
+														<input type="number" class="form-control marginright" id="sidebar-logo-margin-right" name="sidebar_logo_margin_right" data-margin="marginRight" data-logo="sidebar" value="<?= getenv('MWL_SIDEBAR_LOGO_RIGHT_MARGIN') ?? 0 ?>" placeholder="0">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
 											</div>
-										</div><!--row-->
-									</div><!--sidebarlogo-->
+										</div>
+										<!--row-->
+									</div>
+									<!--sidebarlogo-->
 									<div id="loginlogo">
 										<h3>Login Logo</h3>
 										<div class="row">
@@ -295,37 +312,39 @@
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="login-logo-width"><small>Width</small></label><br/>
+													<label for="login-logo-width"><small>Width</small></label><br />
 													<div class="input-group">
-                                                    <input type="number" class="form-control" id="login-logo-width" name="login_logo_width" value="<?=getenv('MWL_LOGIN_LOGO_WIDTH') ?? 100?>" min="50" max="400">
+														<input type="number" class="form-control" id="login-logo-width" name="login_logo_width" value="<?= getenv('MWL_LOGIN_LOGO_WIDTH') ?? 100 ?>" min="50" max="400">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
 											</div>
 											<div class="col-md-6">
 											</div>
-										</div><!--row-->
+										</div>
+										<!--row-->
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="login-logo-margin-top"><small>Top Margin</small></label><br/>
+													<label for="login-logo-margin-top"><small>Top Margin</small></label><br />
 													<div class="input-group">
-                                                    <input type="number" class="form-control margintop" id="login-logo-margin-top" name="login_logo_margin_top" data-margin="marginTop" data-logo="login" placeholder="0" value="<?=getenv('MWL_LOGIN_LOGO_TOP_MARGIN') ?? 20?>">
+														<input type="number" class="form-control margintop" id="login-logo-margin-top" name="login_logo_margin_top" data-margin="marginTop" data-logo="login" placeholder="0" value="<?= getenv('MWL_LOGIN_LOGO_TOP_MARGIN') ?? 20 ?>">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
 											</div>
 											<div class="col-md-6">
 												<div class="form-group">
-													<label for="login-logo-margin-bottom"><small>Bottom Margin</small></label><br/>
+													<label for="login-logo-margin-bottom"><small>Bottom Margin</small></label><br />
 													<div class="input-group">
-                                                    <input type="number" class="form-control marginbottom" id="login-logo-margin-bottom" name="login_logo_margin_bottom" data-margin="marginBottom" data-logo="login" placeholder="0" value="<?=getenv('MWL_LOGIN_LOGO_BOTTOM_MARGIN') ?? 20?>">
+														<input type="number" class="form-control marginbottom" id="login-logo-margin-bottom" name="login_logo_margin_bottom" data-margin="marginBottom" data-logo="login" placeholder="0" value="<?= getenv('MWL_LOGIN_LOGO_BOTTOM_MARGIN') ?? 20 ?>">
 														<div class="input-group-addon">px</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div><!--loginlogo-->
+									</div>
+									<!--loginlogo-->
 									<div id="favicon">
 										<h3>Favicon</h3>
 										<div class="row">
@@ -344,31 +363,38 @@
 											<div class="col-md-12">
 												<img src="images/favicon.ico" id="favicon-preview" style="max-width:64px;" />
 											</div>
-										</div><!--row-->
-									</div><!--favicon-->
+										</div>
+										<!--row-->
+									</div>
+									<!--favicon-->
 
 									<div id="actions">
 										<button id="reset" class="btn btn-default">Reset to Defaults &nbsp;<i class="fa fa-undo" aria-hidden="true"></i></button>
 
 										<button id="load-config" class="btn btn-default">Load a Config File &nbsp;<i class="fa fa-file-code-o" aria-hidden="true"></i></button>
 
-										<br/><br/>
+										<br /><br />
 
 										<button id="save" class="btn btn-default">Save &nbsp;<i class="fa fa-spinner fa-spin fa-fw save-loading" style="display:none;"></i><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
 										<button id="save-as" class="btn btn-default">Save As &nbsp;<i class="fa fa-spinner fa-spin fa-fw save-as-loading" style="display:none;"></i><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
-										
+
 										<button id="whitelabel-now" type="submit" class="btn btn-default">Whitelabel &nbsp;<i class="fa fa-magic" aria-hidden="true"></i></button>
 
 										<div id="notification">
 											<p class="success">Config saved to assets/config.json.</p>
 										</div>
 
-									</div><!--actions-->
+									</div>
+									<!--actions-->
 								</form>
-							</div><!--col-md-12-->
-						</div><!--row-->
-					</div><!--options-->
-				</div><!--col 6-->
+							</div>
+							<!--col-md-12-->
+						</div>
+						<!--row-->
+					</div>
+					<!--options-->
+				</div>
+				<!--col 6-->
 				<div class="col-md-6 console">
 					<div id="right">
 						<div class="panel panel-primary consolewindow">
@@ -404,89 +430,105 @@
 									<p id="complete"><span class="arrow">></span> Whitelabeling complete! You may have to clear your browser's cache. Don't forget to remove this directory or move it somewhere not publicly accessible!</p>
 								</div>
 							</div>
-						</div><!--panel primary-->
+						</div>
+						<!--panel primary-->
 						<div id="login_preview">
 							<h3>Login Preview</h3>
 							<div class="panel" name="form-login">
-							    <div class="panel-body">
-							        <div class="mautic-logo img-circle mb-md text-center" style="width:150px;">
-							            <img id="login-logo" src="images/login.png" alt="" style="width:150px; margin:20px 0 20px 0" />
-							        </div>
-							        <form class="form-group login-form" name="login" action="">
-							            <div class="input-group mb-md">
-							                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-							                <label for="username" class="sr-only">Username or email</label>
-							                <input type="text" id="username" name="_username" class="form-control input-lg" value="" required="" autofocus="" placeholder="Username or email">
-							            </div>
-							            <div class="input-group mb-md">
-							                <span class="input-group-addon"><i class="fa fa-key"></i></span>
-							                <label for="password" class="sr-only">Password:</label>
-							                <input type="password" id="password" name="_password" class="form-control input-lg" required="" placeholder="Password">
-							            </div>
-							            <div class="checkbox-inline custom-primary pull-left mb-md">
-							                <label for="remember_me">
-							                <input type="checkbox" id="remember_me" name="_remember_me">keep me logged in</label>
-							            </div>
-							            <button class="btn btn-lg btn-primary btn-block" id="login_button" type="submit">login</button>
-							            <div class="mt-sm text-right">
-							                <a href="#" id="forgot">forgot your password?</a>
-							            </div>
-							        </form>
-							    </div><!--panel-body-->
-							</div><!--panel-->
+								<div class="panel-body">
+									<div class="mautic-logo img-circle mb-md text-center" style="width:150px;">
+										<img id="login-logo" src="images/login.png" alt="" style="width:150px; margin:20px 0 20px 0" />
+									</div>
+									<form class="form-group login-form" name="login" action="">
+										<div class="input-group mb-md">
+											<span class="input-group-addon"><i class="fa fa-user"></i></span>
+											<label for="username" class="sr-only">Username or email</label>
+											<input type="text" id="username" name="_username" class="form-control input-lg" value="" required="" autofocus="" placeholder="Username or email">
+										</div>
+										<div class="input-group mb-md">
+											<span class="input-group-addon"><i class="fa fa-key"></i></span>
+											<label for="password" class="sr-only">Password:</label>
+											<input type="password" id="password" name="_password" class="form-control input-lg" required="" placeholder="Password">
+										</div>
+										<div class="checkbox-inline custom-primary pull-left mb-md">
+											<label for="remember_me">
+												<input type="checkbox" id="remember_me" name="_remember_me">keep me logged in</label>
+										</div>
+										<button class="btn btn-lg btn-primary btn-block" id="login_button" type="submit">login</button>
+										<div class="mt-sm text-right">
+											<a href="#" id="forgot">forgot your password?</a>
+										</div>
+									</form>
+								</div>
+								<!--panel-body-->
+							</div>
+							<!--panel-->
 							<div id="footer">
-								<p>&copy; <?=date('Y');?> <span id="company-name-preview">Mautic</span><span id="footer-prefix-preview">. All Rights Reserved.</span></p>
+								<p>&copy; <?= date('Y'); ?> <span id="company-name-preview">Mautic</span><span id="footer-prefix-preview">. All Rights Reserved.</span></p>
 								<p id="footer-preview"></p>
 							</div>
-						</div><!--login preview-->
-					</div><!--right-->
-				</div><!--col 6-->
-			</div><!--row-->
-		</div><!--container-->
-	</div><!--whitelabeler-->
+						</div>
+						<!--login preview-->
+					</div>
+					<!--right-->
+				</div>
+				<!--col 6-->
+			</div>
+			<!--row-->
+		</div>
+		<!--container-->
+	</div>
+	<!--whitelabeler-->
 	<!--config open modal-->
-    <div class="modal fade" id="open-config" tabindex="-1" role="dialog" aria-labelledby="open-config">
-        <div class="modal-dialog modal-sm" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Select a file from assets:</h4>
-                </div>
-                <div class="modal-body">
-                </div>            
-            </div>
-        </div>
-    </div>
-    <!--/config open modal-->
+	<div class="modal fade" id="open-config" tabindex="-1" role="dialog" aria-labelledby="open-config">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Select a file from assets:</h4>
+				</div>
+				<div class="modal-body">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/config open modal-->
 	<div id="overlay"><i class="fa fa-spinner fa-spin"></i><span>Loading</span></div>
 	<script>
-        var mautic_path = '<?=realpath(__DIR__ . '/..');?>';
-        var mautic_url = "<?=getenv('MWL_MAUTIC_URL')?>";
-        var company_name = "<?=getenv('MWL_COMPANY_NAME')?>";
-        var footer_prefix = "<?=getenv('MWL_FOOTER_PREFIX')?>";
-        var mautic_primary = "<?=getenv('MWL_PRIMARY_COLOR') ?? '#4e5d9d'?>";
-        var mautic_hover = "<?=getenv('MWL_HOVER_COLOR') ?? '#3d497b'?>";
-        var logo_bg = "<?=getenv('MWL_LOGO_BACKGROUND') ?? '#4e5d9d'?>";
-        var sidebar_bg = "<?=getenv('MWL_SIDEBAR_BACKGROUND') ?? '#1d232b'?>";
-        var sidebar_submenu_bg = "<?=getenv('MWL_SUBMENU_BACKGROUND') ?? '#171c22'?>";
-        var sidebar_link = "<?=getenv('MWL_LINK_COLOR') ?? '#9e9e9e'?>";
-        var sidebar_link_hover = "<?=getenv('MWL_LINK_HOVER_COLOR') ?? '#ffffff'?>";
-        var active_icon = "<?=getenv('MWL_ACTIVE_ICON_COLOR') ?? '#fdb933'?>";
-        var sidebar_divider = "<?=getenv('MWL_DIVIDER_COLOR') ?? '#202830'?>";
-        var submenu_bullet_bg = "<?=getenv('MWL_SUBMENU_BULLET_BACKGROUND') ?? '#222a32'?>";
-        var submenu_bullet_shadow = "<?=getenv('MWL_SUBMENU_BULLET_SHADOW') ?? '#1a2026'?>";
-        var divider_left = <?=getenv('MWL_DIVIDER_LEFT_POSITION') ?? 50?>;
-        var sidebar_logo = null;
-        var sidebar_logo_width = <?=getenv('MWL_SIDEBAR_LOGO_WIDTH') ?? 130?>;
-        var sidebar_logo_margin_top = <?=getenv('MWL_SIDEBAR_LOGO_TOP_MARGIN') ?? 10?>;
-        var sidebar_logo_margin_left = <?=getenv('MWL_SIDEBAR_LOGO_LEFT_MARGIN') ?? 0?>;
-        var sidebar_logo_margin_right = <?=getenv('MWL_SIDEBAR_LOGO_RIGHT_MARGIN') ?? 0?>;
-        var login_logo_width = <?=getenv('MWL_LOGIN_LOGO_WIDTH') ?? 100?>;
-        var login_logo_margin_top = <?=getenv('MWL_LOGIN_LOGO_TOP_MARGIN') ?? 20?>;
-        var login_logo_margin_bottom = <?=getenv('MWL_LOGIN_LOGO_BOTTOM_MARGIN') ?? 20?>;
-        var login_logo = null;
-        var favicon = null;
+		<?php
+		function get_str_env($name, $default_value = '')
+		{
+			return str_replace(['"', "'"], "", getenv($name) ?? $default_value);
+		}
+		?>
+		var mautic_path = '<?= realpath(__DIR__ . '/..'); ?>';
+		var mautic_url = "<?= get_str_env('MWL_MAUTIC_URL') ?>";
+		var company_name = "<?= get_str_env('MWL_COMPANY_NAME') ?>";
+		var footer_prefix = "<?= get_str_env('MWL_FOOTER_PREFIX') ?>";
+		var mautic_primary = "<?= get_str_env('MWL_PRIMARY_COLOR', '#4e5d9d') ?>";
+		var mautic_hover = "<?= get_str_env('MWL_HOVER_COLOR', '#3d497b') ?>";
+		var logo_bg = "<?= get_str_env('MWL_LOGO_BACKGROUND', '#4e5d9d') ?>";
+		var sidebar_bg = "<?= get_str_env('MWL_SIDEBAR_BACKGROUND', '#1d232b') ?>";
+		var sidebar_submenu_bg = "<?= get_str_env('MWL_SUBMENU_BACKGROUND', '#171c22') ?>";
+		var sidebar_link = "<?= get_str_env('MWL_LINK_COLOR', '#9e9e9e') ?>";
+		var sidebar_link_hover = "<?= get_str_env('MWL_LINK_HOVER_COLOR', '#ffffff') ?>";
+		var active_icon = "<?= get_str_env('MWL_ACTIVE_ICON_COLOR', '#fdb933') ?>";
+		var sidebar_divider = "<?= get_str_env('MWL_DIVIDER_COLOR', '#202830') ?>";
+		var submenu_bullet_bg = "<?= get_str_env('MWL_SUBMENU_BULLET_BACKGROUND', '#222a32') ?>";
+		var submenu_bullet_shadow = "<?= get_str_env('MWL_SUBMENU_BULLET_SHADOW', '#1a2026') ?>";
+		var divider_left = <?= getenv('MWL_DIVIDER_LEFT_POSITION') ?? 50 ?>;
+		var sidebar_logo = null;
+		var sidebar_logo_width = <?= getenv('MWL_SIDEBAR_LOGO_WIDTH') ?? 130 ?>;
+		var sidebar_logo_margin_top = <?= getenv('MWL_SIDEBAR_LOGO_TOP_MARGIN') ?? 10 ?>;
+		var sidebar_logo_margin_left = <?= getenv('MWL_SIDEBAR_LOGO_LEFT_MARGIN') ?? 0 ?>;
+		var sidebar_logo_margin_right = <?= getenv('MWL_SIDEBAR_LOGO_RIGHT_MARGIN') ?? 0 ?>;
+		var login_logo_width = <?= getenv('MWL_LOGIN_LOGO_WIDTH') ?? 100 ?>;
+		var login_logo_margin_top = <?= getenv('MWL_LOGIN_LOGO_TOP_MARGIN') ?? 20 ?>;
+		var login_logo_margin_bottom = <?= getenv('MWL_LOGIN_LOGO_BOTTOM_MARGIN') ?? 20 ?>;
+		var login_logo = null;
+		var favicon = null;
 	</script>
 	<script src="lib/whitelabeler.js"></script>
 </body>
+
 </html>
